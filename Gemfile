@@ -44,3 +44,6 @@ gem 'rails_config'
 # Multiple Table Inheritance
 gem "heritage", "0.3.4", :git => "git://github.com/snitko/Heritage.git"
 
+# will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Merb, DataMapper and Sequel.
+gem 'will_paginate', '~> 3.0'
+
