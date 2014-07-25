@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 # RailsConfig helps you easily manage environment specific Rails settings in an easy and usable manner. Read more https://github.com/railsconfig/rails_config
 gem 'rails_config'
 
+# Multiple Table Inheritance
+gem "heritage", "0.3.4", :git => "git://github.com/snitko/Heritage.git"
+
