@@ -11,4 +11,5 @@ class Item < ActiveRecord::Base
   validates :weight, numericality: {greater_than: 0}, on: :create
   validates :name, presence: true
 
+  scope :cheapest, where("price >= 100") # ???
 end

@@ -47,3 +47,6 @@ gem "heritage", "0.3.4", :git => "git://github.com/snitko/Heritage.git"
 # will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Merb, DataMapper and Sequel.
 gem 'will_paginate', '~> 3.0'
 
+# Rails footnotes displays footnotes in your application for easy debugging, such as sessions, request parameters, cookies, filter chain, routes, queries, etc.
+gem 'rails-footnotes', '>= 4.0.0', '<5'
+
